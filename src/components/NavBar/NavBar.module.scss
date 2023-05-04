@@ -17,11 +17,22 @@
 }
 
 .mainNav {
-    a {
+        list-style: none;
         text-decoration: none;
         color: $color-light;
-        padding: 5px;
-        margin: 5px;
-        font-size: 20px;
-    }
+        li {
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            font-size: 20px;
+            color: $color-light;
+            a {
+                color: $color-light;
+                text-decoration: none;
+            } 
+        }
+}
+
+.linkActive {
+    color: $color-warning !important;
 }
