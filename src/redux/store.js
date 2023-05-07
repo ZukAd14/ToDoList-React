@@ -6,34 +6,6 @@ import cardsReducer from './cardsRedux';
 import searchStringReducer from './searchStringRedux';
 
 
-//selectors
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// action creators
-
-
-
-
-
-
-
-
-
-
-
-
 const subreducers = {
   
   lists: listsReducer,
